@@ -5,12 +5,11 @@
  * Ne modifiez rien d'autre dans ce fichier : les valeurs ci-dessous sont calculées à partir de N.
  */
 public final class Parametres {
-    public static final String MATRICULE = "A_REMPLIR";
-    public static final int N = 0;                                // <-- À REMPLACER
+    public static final String MATRICULE = "2410537";
+    public static final int N = 37; 
 
-    public static final long TARIF_KG = 400 + 10 * (N % 10);      // FCFA par kg
-    public static final long SURCHARGE_HORS_DAKAR = 1500;         // FCFA
-    public static final int CAPACITE = 15 + N % 7;                // kg (exercice 3)
-
-    private Parametres() { }
+    public static final long TARIF_KG = 400 + 10 * (N % 10); 
+    public static final long SURCHARGE_HORS_DAKAR = 1500; 
+    public static final int CAPACITE = 15 + N % 7;
+    private Parametres() {}
 }
